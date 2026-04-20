@@ -19,7 +19,7 @@ if [[ -z "$TOKEN" ]]; then
   exit 1
 fi
 
-VERSION="0.1.2"
+VERSION="0.1.3"
 PACK_URL="${FOS_PACK_URL:-https://github.com/Instabidsai/founderos-pack/releases/download/v${VERSION}/founderos-skill-pack-v${VERSION}.tar.gz}"
 ADMIN_URL="${FOS_ADMIN_URL:-https://wdvfwtecvdhtvmyeymgy.supabase.co}"
 ADMIN_KEY="${FOS_ADMIN_KEY:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndkdmZ3dGVjdmRodHZteWV5bWd5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzExNTU3MjEsImV4cCI6MjA4NjczMTcyMX0.01rJXoNV8VCzEQe1guCd0Z9Ff3kkCHgacGMyO9QWcDM}"
